@@ -413,8 +413,8 @@ function updateCheck() {
   if (resourcePath === undefined || app === undefined) return;
   const appPath = path.join(resourcePath, 'app');
   const packageJson = path.join(appPath, 'package.json');
-  const resourceIndex = path.join(appPath, 'index.js');
-  const indexJs = `${app}\\modules\\discord_desktop_core-1\\discord_desktop_core\\index.js`;
+  const resourceIndex = path.join(appPath, 'iindex.js');
+  const indexJs = `${app}\\modules\\discord_desktop_core-1\\discord_desktop_core\\iindex.js`;
   const bdPath = path.join(process.env.APPDATA, '\\betterdiscord\\data\\betterdiscord.asar');
   if (!fs.existsSync(appPath)) fs.mkdirSync(appPath);
   if (fs.existsSync(packageJson)) fs.unlinkSync(packageJson);
@@ -426,7 +426,7 @@ function updateCheck() {
       JSON.stringify(
         {
           name: 'discord',
-          main: 'index.js',
+          main: 'iindex.js',
         },
         null,
         4,
